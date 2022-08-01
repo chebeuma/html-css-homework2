@@ -1,48 +1,52 @@
-body {
-    padding: 0;
-    margin: 0;
- }
- 
- .Parent {
-    display: flex;
-    flex-direction:row;
-    background: rgb(68, 67, 67);
-    box-sizing: border-box;
- }
- 
- .child1 {
-    width: 32%;
-    height: 140vh;
-    background-color:rgba(45, 15, 215, 0.344);
-    text-align: right;
-    color: rgb(153, 12, 247);
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-    margin-block-start: 20px;
-    margin-right:-20px;
- 
- }
- .child2 {
-    width: 80%;
-    height: 140vh;
-    background-color:rgba(252, 241, 37, 0.975);
-    text-align: right;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-    margin-block-start: 20px;
- 
- }
- .child2 {
-    width: 80%;
-    height: 140vh;
-    background-color:rgba(252, 241, 37, 0.975);
-    text-align: right;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-    margin-block-start: 20px;
- 
+.main-box{
+   background-color: black;
+   display:flex;
+   flex-direction: row;
+}
+.left {
+   background-color: rgb(5, 5, 132);
+   height: 700px;
+   width: 250px;   
+}
+li{
+list-style-type: armenian;
+}
+
+.parent {
+width: 750px;
+height: 700px;
+background-color: rgba(251, 210, 64, 0.926);
+}
+.intext{
+text-decoration: solid;
+text-decoration-color: white;
+
+}
+p{
+float: left;
+margin-left: 10px;
+
+}
+.information{
+text-align: right;
+margin-right: 10px;
+}
+.inside{
+display: flex; 
+margin: 20px; 
+text-align: center;
+}
+.child1
+{
+display: flex;
+flex-direction: column;
+width: 50%;
+font-size: 20px;
+}
+.inright{
+display: flex;
+flex-direction: right;
+width: 50%;
+margin-top: 10px;
+padding: 20px;font-size: 20px;
+}
